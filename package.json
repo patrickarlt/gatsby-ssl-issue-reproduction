@@ -1,0 +1,17 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "start:local-certs": "gatsby develop --cert-file=localhost.pem --key-file=localhost-key.pem --https",
+    "start:devcert": "gatsby develop --https",
+    "start": "gatsby develop"
+  },
+  "dependencies": {
+    "gatsby": "^2.22.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
