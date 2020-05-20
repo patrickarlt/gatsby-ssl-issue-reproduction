@@ -7,5 +7,6 @@
 # Mkcert
 
 - `brew install mkcert`
+- `brew install nss`
 - `mkcert --install`
 - `mkcert localhost`
